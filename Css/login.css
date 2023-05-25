@@ -1,0 +1,85 @@
+*{
+    font-family:  sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  sans-serif;
+}
+
+.div1{
+border-right: 1px solid rgb(235, 233, 233);;
+height: 600px;
+width: 50%;
+}
+
+.div1 h1{
+    font-size: 50px;
+    margin-top: 30%;
+    text-underline-offset: 30px;
+}
+
+ .div2{
+     height: 500px;
+    width: 50%;
+
+} 
+
+input{
+    height: 20px;
+    width: 480px;
+    margin-top: 25px;
+    padding: 15px;
+   
+}
+
+.inputdiv{
+    
+    margin-top: 25px;
+    margin-left: 80px;
+
+    
+}
+
+.login_btn{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.login_btn button{
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 53px;
+    border-radius: 80px;
+}
+
+.login_btn div{
+    margin-left: 20px;
+}
+
+.login_btn div p:nth-child(2){
+    margin-top: 10px;
+}
+.fb_gmail div{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.fb_i{
+    font-size: 35px;
+    padding-left: 225px;
+}
+
+.fb_i i:nth-child(1){
+    color: blue;
+}
+.fb_i i:nth-child(2){
+    color: rgb(180, 25, 25);
+}
+
+
+
+

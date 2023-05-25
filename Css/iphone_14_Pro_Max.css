@@ -1,0 +1,192 @@
+
+.product2 {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* gap: 20px; */
+    /* margin-top: -40px; */
+    margin-bottom: 30px;
+    }
+.product2 .cart2{
+    height: 530px;
+    width: 315px;  
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.product2 .cart2 img{
+    height: 350px;
+    width: 315px;  
+}
+.product2 .cart2 p{
+    margin-top: 5px;
+    font-family: Futura, sans-serif; 
+}
+.product2 .price p:nth-child(2){
+    margin-top: 5px;
+    font-family: Futura, sans-serif;
+    color: gray; 
+}
+.price{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn button{
+    margin-top: 5px;
+    height: 50px;
+}
+.btn button:nth-child(1){
+    background-color: white;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+/* .btn button:nth-child(1)  {
+    background-color: white;
+    border: 0.5px solid black;
+    cursor: pointer;
+} */
+.btn button:nth-child(1):hover{
+    background-color: black;
+    color: white;   
+    cursor: pointer;
+}
+.btn button:nth-child(2){
+    background-color: black;
+    color: white;  
+    cursor: pointer;
+}
+s{
+    color: rgb(131, 131, 131);
+}
+
+.Add_To_Cart{
+    position: absolute;
+    width: 460px;
+    height: auto;
+    background-color: white;
+    /* margin-left: 64.9vw; */
+    margin-left: 100vw;
+    margin-top: -140px;
+    /* display: none; */
+   
+    transition: all 1s;
+    
+    
+   
+}
+
+.Add_To_Cart_2{
+    position: absolute;
+    width: 460px;
+    height: auto;
+    background-color: white;
+    margin-left: 64.9vw;
+    margin-top: -140px;
+    transition: all 1s;
+    /* display: block; */
+    
+}
+
+.Add_To_Cart .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 13vh;
+    border-bottom:1px solid rgb(214, 214, 214) ;
+}
+
+.Add_To_Cart .Secand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-top: 20px;
+    
+}
+
+.Add_To_Cart .Secand img{
+   height:18vh;
+   width: 8vw;
+   margin-top: -50px;
+}
+
+.Add_To_Cart .Secand div{
+    margin-right: 30px;
+ }
+
+.Add_To_Cart .Secand h2{
+   font-size: 24px;
+ }
+ .Add_To_Cart .Secand s{
+    font-size:15px;
+    margin-left: 20px;
+  }
+.Add_To_Cart .Secand p:nth-child(2){
+    font-size:22px;
+    margin-top: 8px;
+  }
+  .Add_To_Cart .Secand p:nth-child(3){
+    font-size:12px;
+    margin-top: 8px;
+  } 
+  .Add_To_Cart .Secand p:nth-child(4){
+    font-size:12px;
+    margin-top: 15px;
+  } 
+  .Add_To_Cart .Secand p:nth-child(5){
+    font-size:15px;
+    margin-top: 12px;
+    color: gray;
+  } 
+  .Add_To_Cart .Secand p:nth-child(6){
+    font-size:12px;
+    margin-top: 10px;
+    color: gray;
+  }  
+ 
+.total_price p:nth-child(1){
+    text-align: end;
+    margin-top: 80px;
+
+}
+.total_price p:nth-child(1) span{
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.total_price p:nth-child(2){
+   text-align: end;
+   font-size: 12px;
+   margin-top: 15px;
+   margin-right: 20px;
+
+}
+
+.total_price button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 410px;
+    margin-left: 28px;
+    border-radius: 30px;
+ 
+ }
+
+ .first_p{
+    cursor: pointer;
+ }

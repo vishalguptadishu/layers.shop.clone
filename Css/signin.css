@@ -1,0 +1,93 @@
+*{
+    font-family:  sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  sans-serif;
+}
+
+.div1{
+border-right: 1px solid rgb(235, 233, 233);;
+height: 700px;
+width: 50%;
+}
+
+.div1 h1{
+    font-size: 50px;
+    margin-top: 30%;
+    text-underline-offset: 30px;
+}
+
+ .div2{
+     height: 500px;
+    width: 50%;
+
+} 
+
+input{
+    height: 20px;
+    width: 480px;
+    margin-top: 25px;
+    padding: 15px;
+   
+}
+
+.inputdiv{
+    
+    margin-top: -30px;
+    margin-left: 80px;
+
+    
+}
+
+.login_btn{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.login_btn button:nth-child(1){
+    background-color: black;
+    color: white;
+    width: 210px;
+    height: 53px;
+    border-radius: 80px;
+}
+.login_btn button:nth-child(2){
+    background-color: white;
+    color: black;
+    width: 285px;
+    height: 53px;
+    margin-left: 20px;
+    border-radius: 80px;
+}
+
+.login_btn div{
+    margin-left: 20px;
+}
+.fb_gmail{
+    margin-top: 60px;
+}
+.fb_gmail div{
+    margin-left: 80px;
+    margin-top: 20px;
+   
+}
+.fb_i{
+    font-size: 35px;
+    padding-left: 225px;
+}
+
+.fb_i i:nth-child(1){
+    color: blue;
+}
+.fb_i i:nth-child(2){
+    color: rgb(180, 25, 25);
+}
+
+
+
+

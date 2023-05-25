@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/marvel_skins.css">
+    <link rel="stylesheet" href="Css/iphone_14_Pro_Max.css">
+    <link rel="stylesheet" href="Css/Buy_now.css">
+    
+   
+</head>
+<body>
+    <div class="buy">
+        
+      <div class="contact">
+        <a href="home.html"><img src="https://www.layers.shop/cdn/shop/files/logo.jpg?v=1673710599" alt=""></a>
+        
+        <div class="nav2" >
+            <p>Cart</p>
+            <p>/</p>
+            <p>Information</p>
+            <p>/</p>
+            <p>Payment</p>
+        </div>
+        
+        <div class="form" >
+        <p>Contact</p>
+        <input type="email" placeholder="Email" >
+        <p>Billing address</p>
+        <input type="email" value="India" placeholder="Email" >
+        <div>
+            <input type="text" placeholder="First Name" >
+            <input type="text" placeholder="Last Name"  >
+        </div>
+        <input type="text" placeholder="Address" >
+        <input type="text" placeholder="Apartment, suite, etc."  >
+       
+            <input type="text"  placeholder="City" >
+            <input type="text"  placeholder="State" >
+        <input type="text" placeholder="Phone No." >
+        <p class="next"> Save this information for next timep</p>
+        <div class="bottom">
+            <p>Return to cart</p>
+            <button onclick="alert1()" >Continue to payment</button>
+        </div>
+        <hr>
+        <p class="pp" ><u>Refund policy   Privacy policy   Terms of service</u></p>
+        </div>
+        </div>
+
+        <div class="allitems">
+        <div>
+         <div>
+            <img class="buy_img" src="" alt="">
+         </div>
+         <div>
+            <p class="p1">iPhone 14 Pro Max Dr Strange</p>
+            <p>Back+Camera</p>
+         </div>
+         <div>
+            ₹599.00
+         </div>
+        </div>
+
+        <div class="btn_last">
+            <input class="dis_input" type="text" placeholder="Discount code" >
+            <button onclick="discount()" >Apply</button>
+        </div>
+        <div class="last">
+            <p>Total</p>
+            <p class="total" >INR ₹599.00</p>
+        </div>
+        
+        </div>
+
+    </div>   
+</body>
+</html>
+<script>
+   function alert1(){
+    alert("your order is complete thank you for shopping ☺️ 😊 😇")
+    window.location.href ="home.html";
+
+ 
+   }
+
+   let img1= JSON.parse(localStorage.getItem("productDetails")) || null;
+
+   let buy_img =document.querySelector(".buy_img")
+   buy_img.src=img1.src
+   let p1=document.querySelector(".p1").innerText=img1.name
+
+   
+  function discount(){
+    var dis_input=document.querySelector(".dis_input").value;
+    if(dis_input=="functionup"){
+        alert("congrats you got the discount 🥳 🎉")
+        document.querySelector(".total").innerText="INR ₹399.00";
+        
+    }else {
+        alert("Sorry this is Invalid Discount code 😓😓 ")
+    }
+    
+  }
+
+</script>
+
+
+
+

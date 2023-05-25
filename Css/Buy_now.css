@@ -1,0 +1,174 @@
+.contact img{
+    height: 60px;
+    width: 96px;
+    margin-left: 9vw;
+    margin-top: 9vh;
+}
+.nav2{
+    margin-left: 9vw;
+    margin-top: 1.5vh; 
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    /* justify-content: center; */
+}
+.nav2 p{
+    margin-left: 10px;
+}
+
+.nav2 p:nth-child(1){
+    margin-left: 0px;
+}
+
+.buy{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.form{
+    margin-left: 9vw;
+    margin-top: 5vh;
+    width: 50vw;
+}
+
+.form p+input{
+ margin-top: 20px;  
+}
+.form input+p{
+  margin-top: 20px; 
+    
+}
+input{
+    height: 45px;
+    width: 550px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 01px solid rgb(212, 212, 212);
+}
+.form div{
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 20vw; */
+}
+.form div input:nth-child(1){
+    width: 19vw;
+    margin-left: -178px;
+}
+.form div input:nth-child(2){
+    margin-left: -230px;
+    width: 19vw;
+}
+.next{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+   
+}
+.bottom p{
+    margin-left: -170px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bottom button{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pp{
+    font-size: 12px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+hr{
+    width: 42vw;
+}
+
+.allitems{
+    background-color: whitesmoke;
+    width: 50vw;
+}
+.allitems div{
+display: flex;
+margin-top: 30px;
+margin-left: 20px;
+}
+.allitems div:nth-child(2){
+ display: flex;    
+ flex-direction: column;
+ margin-left: 15px;
+ margin-top: 40px;
+ font-size: 14px;
+
+}
+
+.allitems div:nth-child(3){
+   
+    margin-top: 40px;
+    font-size: 14px;
+    margin-left: 50px;
+   
+}
+
+.btn_last{
+    margin-top: -50px;
+    
+}
+.btn_last input {
+width: 330px;
+height: 50px;
+margin-left: 20px;
+}
+.btn_last button{
+    width: 100px;
+    margin-left: 370px;
+    margin-top: -51px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: gray;
+    height: 50px;
+    width: 70px;
+    color: white;
+}
+.last{
+    margin-left: 10px;
+    justify-content: space-between;
+    
+}
+.last button{
+   height: 40px;
+   background-color: black;  
+}
+
+.last p:nth-child(1){
+    margin-right: 140px;
+    font-size: 16px;
+    
+}
+.last p:nth-child(2){
+    margin-right: 140px;
+    font-size: 16px;
+    
+}
+
+.buy_img{
+    width: 70px;
+}
+
+
+
+
+

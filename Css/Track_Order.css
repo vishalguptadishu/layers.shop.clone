@@ -1,0 +1,22 @@
+.radio_input{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Input_bar{
+    margin-left: 35vw;
+    height: 7vh;
+    width: 30vw;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    width: 90px;
+    height: 35px;
+    margin-left: 45vw;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}

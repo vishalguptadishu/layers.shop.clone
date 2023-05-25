@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Futura, sans-serif;
+}
+.navbar2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 0.1px solid rgb(212, 210, 210);
+}
+.navbar2 p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+    font-family: Futura, sans-serif;
+
+}
+.about_product{
+    height: 675px;
+    display: flex;
+}
+
+.about_product div img{
+    height:100vh;
+    width: 49vw;
+
+}
+
+.about_product .product_name{
+   margin-left: 7.5vw;
+   margin-top: 26vh;
+}
+.about_product h1{
+    margin: 0px;
+    padding: 0px;
+    margin-left: -120px;
+    font-family: Futura, sans-serif;
+  }
+ 
+ 
+.about_product h2{
+   font-size: 29px;
+   font-weight: 100;
+   margin-top: 5px;
+   margin-left: -220px;
+ }
+
+ .about_product button{
+    background-color: black;
+    width: 230px;
+    height: 40px;
+    margin-top: 25px;
+   color: white;
+   border-radius: 30px;
+   border: 0px;
+  }
+.share{
+    margin-top: 30px;
+    margin-left: -35px;
+   
+}
+.share i{
+  color: black;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+   margin-left: 38px;
+   width: 80%;
+   text-align: left;
+}
+span{
+    margin-left: 0px;
+}
+
+.hero p{
+    margin-left: 50px;
+    width: 80%;
+    margin-top: 40px;
+    line-height: 30px;
+    font-family: Futura, sans-serif;
+    color: rgb(85, 85, 85);
+ }
+.hero img{
+    height: 100vh;
+    width: 50vw;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+s{
+    color: rgb(131, 131, 131);
+}
+#aa{
+    color: white;
+}
+
+.p_Name{
+    margin-left: 60px;
+}
+
+ 
